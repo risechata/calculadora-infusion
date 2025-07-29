@@ -1,0 +1,33 @@
+<svg width="192" height="192" viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#007bff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0056b3;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="dropGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#e3f2fd;stop-opacity:0.8" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Fondo circular -->
+  <circle cx="96" cy="96" r="88" fill="url(#bgGradient)" stroke="#ffffff" stroke-width="4"/>
+  
+  <!-- Gota de infusión -->
+  <path d="M96 40 C96 40, 76 60, 76 80 C76 91, 85 100, 96 100 C107 100, 116 91, 116 80 C116 60, 96 40, 96 40 Z" fill="url(#dropGradient)" stroke="#007bff" stroke-width="2"/>
+  
+  <!-- Tubo de infusión -->
+  <rect x="94" y="100" width="4" height="40" fill="#ffffff" rx="2"/>
+  
+  <!-- Base del gotero -->
+  <rect x="88" y="135" width="16" height="8" fill="#ffffff" rx="4"/>
+  
+  <!-- Cruz médica -->
+  <g transform="translate(96, 160)">
+    <rect x="-2" y="-12" width="4" height="24" fill="#ffffff" rx="2"/>
+    <rect x="-12" y="-2" width="24" height="4" fill="#ffffff" rx="2"/>
+  </g>
+  
+  <!-- Texto "IV" -->
+  <text x="96" y="50" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#007bff" text-anchor="middle">IV</text>
+</svg>
